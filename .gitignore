@@ -1,0 +1,26 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Node modules
+membershipmodule-backend/node_modules/
+membershipmodule-frontend/node_modules/
+
+# Build directories
+membershipmodule-backend/dist/
+membershipmodule-frontend/build/
+
+# Environment variables
+membershipmodule-backend/.env
+membershipmodule-frontend/.env
+
+# Typescript
+membershipmodule-backend/*.tsbuildinfo
+membershipmodule-frontend/*.tsbuildinfo
+
+# React specific
+membershipmodule-frontend/.eslintcache
+
+# Misc
+.DS_Store
